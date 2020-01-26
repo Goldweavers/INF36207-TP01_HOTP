@@ -1,0 +1,27 @@
+{
+  "name": "tokenizr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tokenizr.js",
+  "bin": "tokenizr.js",
+  "scripts": {
+    "build": "pkg .",
+    "start": "node tokenizr.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Julien SARRIOT",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.2.1",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.2"
+  },
+  "pkg": {
+    "scripts": [
+      "lib/**/*.js"
+    ]
+  }
+}
