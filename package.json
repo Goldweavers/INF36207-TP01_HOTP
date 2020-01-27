@@ -13,6 +13,8 @@
   "author": "Julien SARRIOT",
   "license": "MIT",
   "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "moment": "^2.24.0",
     "winston": "^3.2.1",
     "yargs": "^15.1.0"
   },
