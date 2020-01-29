@@ -26,6 +26,9 @@
   "pkg": {
     "scripts": [
       "lib/**/*.js"
+    ],
+    "assets": [
+      "node_modules/figlet/fonts/*.flf"
     ]
   }
 }
